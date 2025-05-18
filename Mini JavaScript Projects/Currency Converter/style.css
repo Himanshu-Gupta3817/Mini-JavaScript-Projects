@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, hsla(165, 100%, 25%, 1) 0%, hsla(137, 55%, 37%, 1) 100%);
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container {
+    min-height: 45vh;
+    min-width: 50vh;
+    padding: 2rem;
+    background: linear-gradient(90deg, hsla(194, 77%, 38%, 1) 0%, hsla(199, 72%, 36%, 1) 100%);
+    border-radius: 2rem;
+    border: 2px solid black;
+}
+
+form p {
+    font-size: 1.4rem;
+    padding-left: 3px;
+}
+
+form input,
+select,
+button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 6px;
+    font-size: 1rem;
+}
+
+.dropDown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropDown i {
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.dropDown select {
+    cursor: pointer;
+}
+
+.from,
+.to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.msg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.msg {
+    font-size: 1.5rem;
+}
+
+button:hover {
+    font-size: 1.9rem;
+}
+
+button {
+    width: 80%;
+    font-size: 1.7rem;
+    background: linear-gradient(127deg, hsla(271, 85%, 23%, 1) 20%, hsla(270, 73%, 35%, 1) 80%);
+    color: white;
+    cursor: pointer;
+}
